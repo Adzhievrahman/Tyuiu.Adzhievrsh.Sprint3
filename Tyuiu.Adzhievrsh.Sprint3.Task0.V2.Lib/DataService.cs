@@ -5,7 +5,7 @@ namespace Tyuiu.Adzhievrsh.Sprint3.Task0.V2.Lib
 {
     public class DataService : ISprint3Task0V2
     {
-        public double GetMultiplySeries(int startValue, int stopValue)
+        public double GetMultiplySeries(int startValue, int stopValue) 
         {
             double multiplySeries = 1;
 
