@@ -9,10 +9,12 @@ namespace Tyuiu.Adzhievrsh.Sprint3.Task0.V2.Lib
         {
             double multiplySeries = 1;
 
-            for (int i = startValue; i <= stopValue; i++)
+            for (int k = startValue; k <= stopValue; k++)
             {
-                multiplySeries *= Math.Pow(
-                    (double)i / (Math.Sin(1) - 7), -2);
+                double denominator = Math.Pow(Math.Sin(1), -7);
+                double term = Math.Pow(k / denominator, -2);
+
+                multiplySeries *= term;
             }
 
             return Math.Round(multiplySeries, 3);

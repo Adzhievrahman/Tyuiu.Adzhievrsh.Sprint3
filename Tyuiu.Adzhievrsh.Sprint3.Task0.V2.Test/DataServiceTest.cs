@@ -11,9 +11,11 @@ namespace Tyuiu.Adzhievrsh.Sprint3.Task0.V2.Test
         {
             DataService ds = new DataService();
 
-            double res = ds.GetMultiplySeries(1, 9);
+            double result = ds.GetMultiplySeries(1, 9);
 
-            Assert.IsTrue(res > 0);
+            double expected = 0.021;
+
+            Assert.AreEqual(expected, result);
         }
     }
 }

@@ -18,12 +18,9 @@ namespace Tyuiu.Adzhievrsh.Sprint3.Task0.V2
 
             DataService ds = new DataService();
 
-            int startValue = 1;
-            int stopValue = 9;
+            double result = ds.GetMultiplySeries(1, 9);
 
-            double result = ds.GetMultiplySeries(startValue, stopValue);
-
-            Console.WriteLine($"Произведение ряда = {result}");
+            Console.WriteLine($"Произведение ряда p = {result}");
             Console.ReadKey();
         }
     }
