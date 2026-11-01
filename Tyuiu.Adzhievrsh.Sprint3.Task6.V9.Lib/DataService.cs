@@ -5,7 +5,6 @@ namespace Tyuiu.Adzhievrsh.Sprint3.Task6.V9.Lib
 {
     public class DataService : ISprint3Task6V9
     {
-
         public int GetSumTheDivisors(int startValue, int stopValue)
         {
             int sum = 0;
@@ -16,7 +15,7 @@ namespace Tyuiu.Adzhievrsh.Sprint3.Task6.V9.Lib
                 {
                     if (number % divisor == 0)
                     {
-                        sum += divisor;
+                        sum++;
                     }
                 }
             }

@@ -10,9 +10,9 @@ namespace Tyuiu.Adzhievrsh.Sprint3.Task6.V9
             Console.Title = "Спринт #3 | Task #6 | Вариант 9";
 
             Console.WriteLine("****************************************************");
-            Console.WriteLine("*  Спринт #3                                       *");
-            Console.WriteLine("*  Task #6                                         *");
-            Console.WriteLine("*  Выполнил: Аджиев Р.Ш. | ИИП6-26-1               *");
+            Console.WriteLine("* Спринт #3                                        *");
+            Console.WriteLine("* Task #6                                          *");
+            Console.WriteLine("* Выполнил: Аджиев Р.Ш. | ИИП6-26-1               *");
             Console.WriteLine("****************************************************");
             Console.WriteLine();
 
