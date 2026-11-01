@@ -13,7 +13,7 @@ namespace Tyuiu.Adzhievrsh.Sprint3.Task3.V10.Test
 
             string result = ds.DeleteCharInString("gdfppf vfpppt p");
 
-            Assert.AreEqual("gdff vft ", result);
+            Assert.AreEqual("gdfff vft ", result);
         }
     }
 }
