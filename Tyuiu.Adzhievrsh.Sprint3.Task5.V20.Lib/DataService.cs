@@ -17,17 +17,17 @@ namespace Tyuiu.Adzhievrsh.Sprint3.Task5.V20.Lib
             int stopValue1,
             int stopValue2)
         {
-            double sum = 0;
+            double sumSeries = 0;
 
             for (int i = startValue1; i <= stopValue1; i++)
             {
                 for (int k = startValue2; k <= stopValue2; k++)
                 {
-                    sum += Math.Pow((double)x / Math.Sin(x), k);
+                    sumSeries += Math.Pow((double)x / Math.Sin(x), k);
                 }
             }
 
-            return Math.Round(sum, 3);
+            return Math.Round(sumSeries, 3);
         }
     }
 }

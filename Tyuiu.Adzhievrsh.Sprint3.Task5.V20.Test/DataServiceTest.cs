@@ -7,13 +7,15 @@ namespace Tyuiu.Adzhievrsh.Sprint3.Task5.V20.Test
     public class DataServiceTest
     {
         [TestMethod]
-        public void Calculate_ReturnsFiniteValue()
+        public void ValidGetSumSumSeries()
         {
             DataService ds = new DataService();
 
-            double result = ds.Calculate();
+            double res = ds.GetSumSumSeries(5, 1, 1, 3, 6);
 
-            Assert.IsTrue(double.IsFinite(result));
+            double wait = 50584.322;
+
+            Assert.AreEqual(wait, res);
         }
     }
 }
