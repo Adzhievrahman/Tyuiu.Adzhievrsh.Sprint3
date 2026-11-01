@@ -6,7 +6,7 @@ namespace Tyuiu.Adzhievrsh.Sprint3.Task3.V10.Lib
 {
     public class DataService : ISprint3Task3V10
     {
-        public string DeleteCharInString(string value)
+        public string DeleteCharInString(string value) 
         {
             StringBuilder result = new StringBuilder();
 
