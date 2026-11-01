@@ -36,4 +36,3 @@ namespace Tyuiu.Adzhievrsh.Sprint3.Task3.V10.Lib
             return result.ToString();
         }
     }
-}
