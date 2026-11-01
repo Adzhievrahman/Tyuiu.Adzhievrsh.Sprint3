@@ -7,18 +7,7 @@ namespace Tyuiu.Adzhievrsh.Sprint3.Task5.V20.Lib
     {
         public double Calculate()
         {
-            double sum = 0;
-            double x = 5;
-
-            for (int i = 1; i <= 3; i++)
-            {
-                for (int k = 1; k <= 6; k++)
-                {
-                    sum += Math.Pow(x / Math.Sin(x), k);
-                }
-            }
-
-            return Math.Round(sum, 3);
+            return GetSumSumSeries(5, 1, 1, 3, 6);
         }
 
         public double GetSumSumSeries(
